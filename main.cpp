@@ -10,8 +10,6 @@ int main(int argc, char *argv[])
     Convert c;
     w.show();
 
-
-
     QObject::connect( &w, SIGNAL( sendToConvertFromWindow( QString ) ),
                       &c, SLOT( convertingStringToBin( QString ) )
                     );

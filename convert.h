@@ -13,7 +13,6 @@ signals:
     void sendConverted (QString );
 public slots:
     void convertingStringToBin( QString );
-
 };
 
 #endif // CONVERT_H

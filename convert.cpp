@@ -8,7 +8,6 @@ Convert::Convert(QObject *parent) : QObject(parent)
 
 void Convert::convertingStringToBin( QString s)
 {
-
     bool ok;
     int num =s.toInt(&ok);
     if(ok)
